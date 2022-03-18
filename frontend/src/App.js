@@ -18,8 +18,8 @@ function App() {
         </div>
       </header>
       <Routes>
-        <Route path="/product/:id" element={<ProductScreen />}></Route>
-        <Route path="/" element={<HomeScreen />}></Route>
+        <Route path="/product/:id" element={<ProductScreen />} />
+        <Route path="/" element={<HomeScreen />} />
       </Routes>
       <footer className="row center">All right reserved</footer>
     </div>
