@@ -1,1 +1,26 @@
-{}
+{
+  "name": "amazon-react-app",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Amazona ECommerce Website React & Node - Full ECommerce",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivprajapat/amazon-react-app.git"
+  },
+  "author": "Shiv Kumar Prajapat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivprajapat/amazon-react-app/issues"
+  },
+  "homepage": "https://github.com/shivprajapat/amazon-react-app#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
